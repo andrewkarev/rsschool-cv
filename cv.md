@@ -12,6 +12,7 @@ Telegram: [\@andrew_karev](tg://resolve?domain=andrew_karev)
 
 ### Briefly about myself:
 
+My aim is to become a part of a modern and engaging profession, where the emphasis is placed on constant learning and development, in which there&apos;s constant need for perfecting your skills. In my opinion, this is what makes life fascinating and full . New knowledge gives us a possibility to get to know ourselves as well as the surrounding world better. The sphere of cutting-edge Internet technology best facilitates these aims. Web Development is the most befitting area to get acquainted with the digital world due to its clearness and a wide range of reference material and information vailable.
 
 ***
 
