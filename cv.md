@@ -35,7 +35,7 @@ My aim is to become a part of a modern and engaging profession, where the emphas
 
 ***
 
-### Code examples:
+### Code example:
 
 ```
 function tribonacci(signature,n){
