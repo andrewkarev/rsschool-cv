@@ -18,6 +18,20 @@ My aim is to become a part of a modern and engaging profession, where the emphas
 
 ### Skills:
 
+* Hard Skills
+    * JavaScript
+    * HTML
+    * CSS
+    * SCSS
+    * Git
+    * Figma
+
+* Soft Skills
+    + Willingness and ability to learn
+    + Critical thinking
+    + Attention to details
+    + Communication skills
+    + Time management
 
 ***
 
