@@ -37,9 +37,27 @@ My aim is to become a part of a modern and engaging profession, where the emphas
 
 ### Code examples:
 
+```
+function tribonacci(signature,n){
+  let result = signature
+  if (n == 0) {
+     return result = []
+  } else if (n == 1) {
+       return result = [signature[0]]
+  }
+  for (let i = 0; i < n - 3; i++) {
+  let newNum = result[result.length - 3] + result[result.length - 2] + result[result.length - 1]
+  result.push(newNum)
+  }
+  return result
+}
+```
+
 ***
 
 ### Education and courses:
+
+
 
 ***
 
