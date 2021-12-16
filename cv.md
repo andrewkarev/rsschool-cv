@@ -57,7 +57,9 @@ function tribonacci(signature,n){
 
 ### Education and courses:
 
-
+* JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru/) (in progress)
+* [FreeCodeCamp](https://www.freecodecamp.org/) JavaScript Algorithms and Data Structures (in progress)
+* [RS Schools Course](https://rs.school/) «JavaScript/Front-end. Stage 0» (in progress)
 
 ***
 
