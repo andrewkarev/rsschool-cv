@@ -64,3 +64,6 @@ function tribonacci(signature,n){
 ***
 
 ### Languages:
+
+* English - Advanced (based on [EFSET](https://www.efset.org/cert/xFt4Ap) results)
+* Russian - Native
