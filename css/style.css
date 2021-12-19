@@ -12,13 +12,13 @@ body {
 }
 
 .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
   height: 100%;
   max-width: 60%;
   min-width: 25rem;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
   background-color: #ffffff;
 }
 
@@ -58,6 +58,10 @@ body {
   font-family: "Oxygen", sans-serif;
   font-weight: 700;
   padding: 0.2rem 0.2rem;
+}
+
+.list-item a:hover {
+  color: #4079c5;
 }
 
 .image-container {
@@ -130,6 +134,11 @@ body {
   font-weight: 700;
 }
 
+.important {
+  font-weight: 800;
+  font-size: 0.9rem;
+}
+
 .section-list {
   margin-bottom: 0.5rem;
 }
@@ -141,6 +150,10 @@ body {
 
 .list-item-link {
   color: #4079c5;
+}
+
+.list-item-link:hover {
+  color: #943ab8;
 }
 
 dt.section-list-item {
@@ -205,4 +218,5 @@ pre code.hljs {
 
 a {
   text-decoration: none;
+  color: #000000;
 }
