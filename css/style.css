@@ -167,3 +167,30 @@ dd {
   background-color: #a4a4a4;
   margin: 1rem 0;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #b4d7ff;
+  flex: 0 0 7vh;
+  color: #000000;
+}
+
+.footer-container {
+  padding: 0.3rem;
+}
+
+.footer-github {
+  width: 2.5rem;
+}
+
+.footer-year {
+  font-family: "Oxygen", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.footer-rsschool {
+  width: 7rem;
+}
