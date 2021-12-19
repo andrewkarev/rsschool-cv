@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 20px;
+  background-color: #666;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100%;
+  max-width: 60%;
+  min-width: 25rem;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.header-line {
+  background-color: #b4d7ff;
+  height: 5vh;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1rem;
+}
+
+.navigation {
+  flex: 1 1 33%;
+  margin: 0 0.5rem;
+  background-color: #b4d7ff;
+  border-radius: 1rem;
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1rem;
+  list-style-type: none;
+}
+
+.list-item {
+  text-transform: uppercase;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  padding: 0.2rem 0.2rem;
+}
+
+.list-item a {
+  transition: color 0.4s;
+}
+
+.list-item a:hover {
+  color: #4079c5;
+}
+
+.image-container {
+  flex: 1 0 auto;
+  max-width: 12.5rem;
+  min-width: 6rem;
+  margin: 0.5rem 0.5rem;
+}
+
+.portrait {
+  height: auto;
+  width: 100%;
+  max-width: 12.5rem;
+  border-radius: 50%;
+}
+
+.header-text {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Oxygen", sans-serif;
+}
+
+.header-title {
+  font-weight: 400;
+  letter-spacing: 0.4rem;
+}
+
+.top-text-description {
+  margin: 0.5rem 0 0 0;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  color: #a4a4a4;
+  font-size: 0.94em;
+}
+
+.header-divider-horizontal {
+  height: 5px;
+  background-color: #a4a4a4;
+  margin: 0 2rem;
+}
+
+.main {
+  background-color: #ffffff;
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.main-content {
+  flex: 0 1 50%;
+  overflow: hidden;
+  font-size: 0.8rem;
+  padding: 1rem 2rem 0 2rem;
+}
+
+.section {
+  margin-bottom: 1.6rem;
+}
+
+.title {
+  text-transform: uppercase;
+  font-family: "Source Code Pro", monospace;
+  padding-bottom: 0.4rem;
+  color: #a4a4a4;
+}
+
+.description {
+  font-family: "Assistant", sans-serif;
+  font-weight: 700;
+}
+
+.important {
+  font-weight: 800;
+  font-size: 0.9rem;
+}
+
+.section-list {
+  margin-bottom: 0.5rem;
+}
+
+.section-list-item {
+  list-style-type: square;
+  margin-left: 1rem;
+}
+
+.list-item-link {
+  color: #4079c5;
+  transition: color 0.5s;
+}
+
+.list-item-link:hover {
+  color: #943ab8;
+}
+
+dt.section-list-item {
+  margin-left: 0;
+}
+
+dd {
+  padding-left: 20px;
+}
+
+.subtitle {
+  line-height: 1.2rem;
+}
+
+.code {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-left: 0;
+}
+
+.code-example {
+  white-space: pre-wrap;
+}
+
+pre code.hljs {
+  padding: 0;
+}
+
+.divider-vertical {
+  flex: 0 0 5px;
+  background-color: #a4a4a4;
+  margin: 1rem 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #b4d7ff;
+  flex: 0 0 7vh;
+  color: #000000;
+}
+
+.footer-container {
+  padding: 0.3rem;
+}
+
+.footer-github {
+  width: 2.5rem;
+}
+
+.footer-year {
+  font-family: "Oxygen", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.footer-rsschool {
+  width: 7rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
