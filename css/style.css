@@ -166,6 +166,10 @@ dd {
   white-space: pre-wrap;
 }
 
+pre code.hljs {
+  padding: 0;
+}
+
 .divider-vertical {
   flex: 0 0 5px;
   background-color: #a4a4a4;
