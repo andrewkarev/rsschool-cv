@@ -55,6 +55,7 @@ body {
 
 .list-item {
   text-transform: uppercase;
+  font-family: "Oxygen", sans-serif;
   font-weight: 700;
   padding: 0.2rem 0.2rem;
 }
@@ -78,6 +79,7 @@ body {
   margin-bottom: 2rem;
   text-align: center;
   text-transform: uppercase;
+  font-family: "Oxygen", sans-serif;
 }
 
 .header-title {
@@ -118,11 +120,13 @@ body {
 
 .title {
   text-transform: uppercase;
+  font-family: "Source Code Pro", monospace;
   padding-bottom: 0.4rem;
   color: #a4a4a4;
 }
 
 .description {
+  font-family: "Assistant", sans-serif;
   font-weight: 700;
 }
 
@@ -193,4 +197,8 @@ dd {
 
 .footer-rsschool {
   width: 7rem;
+}
+
+a {
+  text-decoration: none;
 }
