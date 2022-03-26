@@ -28,7 +28,7 @@
           <ul class="list">
             <li class="list-item"><a href="#profile">Profile</a></li>
             <li class="list-item"><a href="#skills">Skills</a></li>
-            <li class="list-item"><a href="#code">Contacts </a></li>
+            <li class="list-item"><a href="#contacts">Contacts </a></li>
           </ul>
         </nav>
         <div class="image-container">
@@ -36,9 +36,9 @@
         </div>
         <nav class="navigation">
           <ul class="list">
-            <li class="list-item"><a href="#contacts">Education</a></li>
-            <li class="list-item"><a href="#education">Projects</a></li>
-            <li class="list-item"><a href="#examples">Code</a></li>
+            <li class="list-item"><a href="#education">Education</a></li>
+            <li class="list-item"><a href="#examples">Projects</a></li>
+            <li class="list-item"><a href="#code ">Code</a></li>
           </ul>
         </nav>
       </div>
@@ -114,12 +114,21 @@
           <h2 class="title" id="education">Educational history</h2>
           <div class="description">
             <ul class="section-list">
-              <li class="section-list-item"><a href="https://rs.school/index.html" class="list-item-link"
-                  target="_blank">RS Schools Course</a> «JavaScript/Front-end. Stage 0» (in progress)</li>
+              <li class="section-list-item"><a href="https://rs.school/js-stage0/" class="list-item-link"
+                  target="_blank">RS Schools Course</a> «JavaScript/Front-end. Stage 0» <a
+                  href="https://app.rs.school/certificate/27s7h0dd" class="list-item-link"
+                  target="_blank">Certificate</a></li>
+              <li class="section-list-item"><a
+                  href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"
+                  class="list-item-link" target="_blank">FreeCodeCamp</a> Responsive Web Design <a
+                  href="https://www.freecodecamp.org/certification/andrewkarev/responsive-web-design"
+                  class="list-item-link" target="_blank">Certificate</a></li>
               <li class="section-list-item"><a
                   href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"
                   class="list-item-link" target="_blank">FreeCodeCamp</a> JavaScript Algorithms and Data Structures (in
                 progress)</li>
+              <li class="section-list-item"><a href="https://rs.school/js/" class="list-item-link" target="_blank">RS
+                  Schools Course</a> «JavaScript/Front-end» (in progress)</li>
             </ul>
           </div>
         </div>
@@ -127,11 +136,28 @@
           <h2 class="title" id="examples">Projects exemples</h2>
           <div class="description">
             <dl class="section-list">
-              <dt class="section-list-item"><a href="https://andrewkarev.github.io/rsschool-cv/cv"
-                  class="list-item-link" target="_blank">CV in markdown format</a></dt>
-              <dd>Markdown&sol;Git</dd>
-              <dt class="section-list-item">More coming soon...</dt>
-              <dd></dd>
+              <dt class="section-list-item"><a
+                  href="https://rolling-scopes-school.github.io/andrewkarev-JSFEPRESCHOOL/portfolio/"
+                  class="list-item-link" target="_blank">Example of Portfolio Site adapted for small devices</a></dt>
+              <dd>Stack: HTML, CSS, JavaScript</dd>
+              <dt class="section-list-item"><a
+                  href="https://rolling-scopes-school.github.io/andrewkarev-JSFEPRESCHOOL/portfolio/#video-section"
+                  class="list-item-link" target="_blank">HTML5 Video Player</a></dt>
+              <dd>Stack: CSS, JavaScript</dd>
+              <dt class="section-list-item"><a
+                  href="https://rolling-scopes-school.github.io/andrewkarev-JSFEPRESCHOOL/movie-app/"
+                  class="list-item-link" target="_blank">Movie-app</a></dt>
+              <dd>Stack: CSS, JavaScript</dd>
+              <dt class="section-list-item"><a
+                  href="https://rolling-scopes-school.github.io/andrewkarev-JSFEPRESCHOOL/memory-game/"
+                  class="list-item-link" target="_blank">Card memory game with 2 game modes</a></dt>
+              <dd>Stack: HTML, CSS, JavaScript</dd>
+              <dt class="section-list-item"><a href="https://andrewkarev.github.io/tic-tac-toe/" class="list-item-link"
+                  target="_blank">Tic-Tac-Toe</a></dt>
+              <dd>Stack: CSS, JavaScript</dd>
+              <dt class="section-list-item"><a href="https://www.codewars.com/users/andrewkarev" class="list-item-link"
+                  target="_blank">Codewars</a></dt>
+              <dd>JavaScript</dd>
             </dl>
           </div>
         </div>
@@ -140,21 +166,41 @@
           <div class="description">
             <pre class="code">
               <code class="code-example">
-function tribonacci(signature,n) {
-  let result = signature
-  if (n === 0) {
-    return result = []
-  } else if (n === 1) {
-      return result = [signature[0]]
-    }
-
-  for (let i = 0; i &lt; n - 3; i++) {
-    let newNum = result[result.length - 3] + result[result.length - 2] + result[result.length - 1]
-
-    result.push(newNum)
+class ListNode {
+  constructor(x) {
+    this.value = x;
+    this.next = null;
   }
 
-  return result
+class Queue {
+  constructor() {
+    this.head = null;
+    this.tail = null;
+  }
+
+  getUnderlyingList() {
+    return this.head;
+  }
+
+  enqueue(value) {
+    if (!this.head) {
+      this.head = new ListNode(value);
+      this.tail = this.head;
+    } else {
+      let currentNode = this.head;
+      while (currentNode.next) {
+        currentNode = currentNode.next;
+      }
+      currentNode.next = new ListNode(value);
+      this.tail = currentNode.next;
+    }
+  }
+
+  dequeue() {
+    const value = this.head.value;
+    this.head = this.head.next;
+    return value;
+  }
 }
               </code>
             </pre>
